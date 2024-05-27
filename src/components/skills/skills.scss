@@ -1,0 +1,95 @@
+@import "../../app.scss";
+
+.Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+}
+
+.Wrapper{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+  gap: 12px;
+
+  @include mobile{
+    flex-direction: column;
+  }
+
+}
+
+.SkillsContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 40px;
+  justify-content: center; 
+}
+
+.Skill{
+  width: 100%;
+  max-width: 500px;
+  background:linear-gradient(180deg, #614385,#516395);
+  border: 0.1px solid #516395;
+  box-shadow: rgba(66, 213, 13, 0.15) 6px 4px 24px;
+  border-radius: 16px;
+  padding: 18px 36px;
+
+  @include mobile {
+    max-width: 330px;
+    padding: 10px 36px;
+  }
+}
+
+.SkillTitle{
+  font-size: 28px;
+  font-weight: 600;
+  color: #dfd811;
+  margin-bottom: 20px;
+  text-align: center;
+
+  @include mobile{
+    font-size: 10px;
+  }
+}
+
+.SkillList{
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+
+  
+}
+
+.SkillItem{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  border: 1px solid rgb(164, 118, 118);
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  @include mobile{
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+.SkillImage{
+  width: 24px;
+  height: 24px;
+}
