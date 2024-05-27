@@ -1,4 +1,4 @@
-import "./rahul.scss"
+import "./Rahul.scss"
 import { motion,} from "framer-motion";
 
 
