@@ -12,9 +12,10 @@ const items = [
   },
   {
     id: 2,
-    title: "Chess A.I Engine",
-    img: "/chess1.avif",
-    desc: "Developed a Chess AI engine using Python and Pygame, offering both 1v1 and AI gameplay modes. The AI leverages the Minimax algorithm with alpha-beta pruning for efficient decision-making.This project demonstrates my expertise in AI algorithms, data analysis, and graphical visualization, showcasing a blend of strategic thinking and technical proficiency.",
+    title: "Chess Club Website",
+    img: "/chess.png",
+    link:"https://chessclubapp.netlify.app/",
+    desc: "Developed an online chess application leveraging React for frontend and Node.js with Express for backend functionalities, MongoDB for database management.Engineered real-time multiplayer capabilities using WebSocket to facilitate seamless chess gameplay  between users.Integrated Chess.js library to validate and enforce legal chess moves, maintaining the integrity of gameplay logic."
   },
   {
     id: 3,
