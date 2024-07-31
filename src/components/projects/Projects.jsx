@@ -5,10 +5,10 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "LeetCode Clone",
+    title: "DSA Arena",
     img: "/leetcode.png",
     link:"https://the-tale-of-dsa.vercel.app/",
-    desc: "Developed a LeetCode clone using React, Next.js, and TypeScript, with Firebase for database and authentication. Users can solve over 10 coding problems and have personalized profile pages to monitor their progress. This project highlights my skills in full-stack development, emphasizing secure authentication, real-time data management, and user-friendly interfaces. ",
+    desc: "Developed a dsa problems solving website using React, Next.js, and TypeScript, with Firebase for database and authentication. Users can solve over 10 coding problems and have personalized profile pages to monitor their progress. This project highlights my skills in full-stack development, emphasizing secure authentication, real-time data management, and user-friendly interfaces. ",
   },
   {
     id: 2,
