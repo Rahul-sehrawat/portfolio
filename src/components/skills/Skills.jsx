@@ -27,27 +27,29 @@ const skills = [
       { name: "MongoDB", image:"/mongodb.png"},
       { name: "Firebase", image: "/firebase.png"},
       { name: "Rest API", image: "/restapi.png"},
+      { name: "Postman", image: "postman.png"},
       { name: "Socket.io", image: "/socket.png"},
     ],
   },
   {
     title: "Machine Learning",
     skills: [
-      { name: "Python", image: "python.png",},
-      { name: "Pandas", image: "pandas.png",},
-      { name: "Numpy", image: "numpy.png",},
-      { name: "Jupyter", image: "jy.png",},
-      { name: "Scikit Learn", image: "scikit.png",},
+      { name: "Python", image: "python.png"},
+      { name: "Pandas", image: "pandas.png"},
+      { name: "Numpy", image: "numpy.png"},
+      { name: "Jupyter", image: "jy.png"},
+      { name: "Scikit Learn", image: "scikit.png"},
     ],
   },
   {
-    title: "Others",
+    title: "DevOps",
     skills: [
-      { name: "Git", image: "git.png",},
-      { name: "Github", image: "github.png",},
-      { name: "Netlify", image: "netlify.png",},
-      { name: "Vercel", image: "vercel.png",},
-      { name: "Postman", image: "postman.png",},
+      { name: "Git", image: "git.png"},
+      { name: "Github", image: "github.png"},
+      { name: "Docker", image: "docker.png"},
+      { name: "Vercel", image: "vercel.png"},
+      { name: "Linux", image: "linux.png"},
+      
       
     
     ],

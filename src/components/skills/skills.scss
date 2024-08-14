@@ -37,7 +37,7 @@
 .Skill{
   width: 100%;
   max-width: 500px;
-  background:linear-gradient(180deg, #614385,#516395);
+  // background:linear-gradient(180deg, #614385,#516395);
   border: 0.1px solid #516395;
   box-shadow: rgba(66, 213, 13, 0.15) 6px 4px 24px;
   border-radius: 16px;
@@ -77,6 +77,7 @@
   color: white;
   border: 1px solid rgb(164, 118, 118);
   border-radius: 12px;
+  box-shadow: rgb(36, 36, 36) 3px 3px 6px 0px inset, rgba(221, 220, 219, 0.5) -4px -5px   inset;
   padding: 12px 16px;
   display: flex;
   align-items: center;

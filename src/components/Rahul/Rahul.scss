@@ -4,7 +4,8 @@
   height: calc(100vh - 100px);
   width: 100wh;
   overflow: hidden;
-  background: linear-gradient(180deg, #0c0c1d, #111132);
+  background: #000;
+  // background: linear-gradient(180deg, #0c0c1d, #111132);
   position: relative;
 
   .wrapper {
@@ -75,7 +76,7 @@
   }
 
   .imageContainer {
-    height: 80%;
+    height: 60%;
     position: absolute;
     top: 60px;
     right: 30px;
@@ -110,3 +111,154 @@
   }
 }
 
+.main-container{
+  width: 500px;
+  height: 500px;
+  background-image: url("/11.jpeg");
+  background-position:-200px;
+  position: relative;
+  border-radius: 20px;
+
+
+}
+
+.firstchild{
+  background-color: rgb(22, 22, 22);
+  width: 290px;
+  height: 180px;
+  z-index: 4;
+  position: relative;
+  top: 11px;
+  left: 200px;
+  border-radius: 15px;
+  animation: first-animation 2s infinite;
+ 
+
+}
+
+@keyframes first-animation {
+  0%, 100% {
+    transform: translateY(0);
+
+  }
+  50% {
+    transform: translateY(-10px); 
+    
+  }
+  
+}
+
+.secondchild{
+  background-color: rgb(22, 22, 22);
+  width: 290px;
+  height: 160px;
+  z-index: 2;
+  top: 30px;
+  left: 260px;
+  position: relative;
+  border-radius: 15px;
+  animation: second-animation 1s infinite
+
+}
+
+@keyframes second-animation {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px); 
+  }
+  
+}
+
+
+
+.thirdchild{
+  background-color: rgb(22, 22, 22);
+  width: 290px;
+  height: 180px;
+  z-index: 2;
+  position: relative;
+  top: 50px;
+  left: 200px;
+  border-radius: 15px;
+  animation: first-animation 3s infinite;
+
+}
+
+.running-img{
+  position:absolute;
+  z-index: 2;
+  animation: first-animation 3s infinite;
+
+}
+
+.running-html{
+  top: 128px;
+  left: 27px;
+}
+.running-css{ 
+  top: 140px;
+  left: 67px;
+}
+.running-js{
+  top: 170px;
+  left: 97px;
+}
+
+.running-react{
+  top: 245px;
+  left: 97px;
+}
+.running-boot{
+  top: 230px;
+  left: 67px;
+}
+.running-redux{
+  top: 320px;
+  left: 97px;
+}
+.running-github{
+  top: 292px;
+  left: 18px;
+}
+.running-graphql{
+  top: 140px;
+  left: 161px;
+}
+
+.running-img2{
+  position:absolute;
+  z-index: 2;
+  animation: second-animation 1s infinite;
+}
+
+.running-tailwind{
+  top: 232px;
+  left: 220px;
+}
+
+
+.running-socket{
+  top: 232px;
+  left: 148px;
+}
+.running-git{
+  top: 352px;
+  left: 161px;
+}
+.running-node{
+  top: 302px;
+  left: 161px;
+}
+
+
+
+.running-nextjs{
+  top: 240px;
+  left: 191px;
+}
+
+.running-img2:hover ,.running-img:hover{
+  scale: 2;
+}
