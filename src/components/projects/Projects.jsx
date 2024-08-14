@@ -11,7 +11,13 @@ const items = [
     img: "/leetcode.png",
     img2: '/dsabot.png',
     link:"https://the-tale-of-dsa.vercel.app/",
-    desc: "Developed a dsa problems solving website using React, Next.js, and TypeScript, with Firebase for database and authentication. Users can solve over 10 coding problems and have personalized profile pages to monitor their progress. This project highlights my skills in full-stack development, emphasizing secure authentication, real-time data management, and user-friendly interfaces. ",
+    desc1: "📃 Developed a dsa problems solving website. ",
+    des2:'📃 User can solve more than 10 problems on my web application.',
+    des3:'📃 Integrated  Firestore database to store user data.',
+    ts1:'React',
+    ts2:'NextJs',
+    ts3:'TypeScript', 
+    ts4:'Firebase',
   },
   {
     id: 2,
@@ -19,7 +25,13 @@ const items = [
     img: "/chess1.png",
     img2: "/chess2.png",
     link:"https://chessclubapp.netlify.app/",
-    desc: "Developed an online chess application leveraging React for frontend and Node.js with Express for backend functionalities, MongoDB for database management.Engineered real-time multiplayer capabilities using WebSocket to facilitate seamless chess gameplay  between users.Integrated Chess.js library to validate and enforce legal chess moves, maintaining the integrity of gameplay logic."
+    desc1: "♟️ Developed an online chess application.",
+    des2:'♟️ Engineered real-time multiplayer capabilities using WebSocket',
+    des3:'♟️ Designed user Identity and Access Control mechanisms using JWT',
+    ts1:'React',
+    ts2:'NodeJs',
+    ts3:'MongoDB',
+    ts4:'Websockets', 
   },
   {
     id: 3,
@@ -27,7 +39,13 @@ const items = [
     link :"https://onepiece-mygame.netlify.app/",
     img: "/fightgame.png",
     img2:"/game2.png",
-    desc: "Developed an engaging 1v1 fighting game using HTML and vanilla JavaScript. This project showcases my proficiency in front-end development. Players can experience smooth animations and intuitive controls, highlighting my ability to create dynamic and immersive user experiences. This game is a testament to my skills in coding and game design, demonstrating creativity and technical expertise.",
+    desc1: "🎮 Developed an engaging 1v1 2D fighting game.",
+    des2:'🎮 Facilitated head-to-head matches through a two-player mode.',
+    des3:'🎮 Programmed game mechanics like health,collision detection.',
+    ts1:'HTML',
+    ts2:'CSS',
+    ts3:'JavaScript', 
+    techstack:'HTML, CSS, JavaScript',
   },
 ];
 
@@ -62,6 +80,20 @@ const Single = ({ item }) => {
                     </div>
                       <h1>{item.title}</h1>
                   </div>
+                  <div >
+                      <h4 className="project-details" >{item.desc1}</h4>
+                      <h4 className="project-details">{item.des2}</h4>
+                      <h4 className="project-details">{item.des3}</h4>  
+                  </div>
+                  <div style={{display:'flex'}}>
+                    <div className="techstack-div">{item.ts1}</div>
+                    <div className="techstack-div">{item.ts2}</div>
+                    <div className="techstack-div">{item.ts3}</div>
+                  </div>
+                  <div style={{position:'relative'}}>
+                    <a className="website-link" href={item.link}>website</a>  
+                  </div>
+                  
                   
               </div>
             </div>
