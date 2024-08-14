@@ -30,8 +30,9 @@ const items = [
     des3:'♟️ Designed user Identity and Access Control mechanisms using JWT',
     ts1:'React',
     ts2:'NodeJs',
-    ts3:'MongoDB',
-    ts4:'Websockets', 
+    ts3:'Express',
+    ts4:'MongoDB',
+    ts5:'Websockets', 
   },
   {
     id: 3,
@@ -89,6 +90,8 @@ const Single = ({ item }) => {
                     <div className="techstack-div">{item.ts1}</div>
                     <div className="techstack-div">{item.ts2}</div>
                     <div className="techstack-div">{item.ts3}</div>
+                    {item.ts4 && (<div className="techstack-div">{item.ts4}</div>)}
+                    {item.ts5 && (<div className="techstack-div">{item.ts5}</div>)}
                   </div>
                   <div style={{position:'relative'}}>
                     <a className="website-link" href={item.link}>website</a>  
