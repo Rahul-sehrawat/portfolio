@@ -158,7 +158,7 @@ const Rahul = () =>{
                       <p style={{ color: "#f1c80e" }}>{`let`}</p>
                       <p style={{ color: "#9CDCFE" }}>{`age`}</p>
                       <p>{` = `}</p>
-                      <p style={{ color: "#B5CEA8" }}>{`25;`}</p>
+                      <p style={{ color: "#B5CEA8" }}>{`24;`}</p>
                     </div>
                     <div style={{ display: "flex", gap: "2px" }}>
                       <p style={{ color: "#f1c80e" }}>{`function`}</p>
@@ -192,10 +192,20 @@ const Rahul = () =>{
 
             </div>
           </div>
+          <div className="intro-div">
+            <div className="block-fill"></div>
+            <h1>Rahul Sehrawat</h1>
+          </div>
+          <div className="job-div">
+          <h3>📑Full Stack Developer</h3>
+          </div>
 
           <motion.div style={{alignItems:'center', textAlign:'center'}}  variants={textVariants} initial="initial" animate="animate" className="imageContainer">
                   <img src="/profile-pic.png" alt=""/>
+
           </motion.div>
+          
+
       </div>
       <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
           <img src="stars.png" alt="" />

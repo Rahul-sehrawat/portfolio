@@ -262,3 +262,56 @@
 .running-img2:hover ,.running-img:hover{
   scale: 2;
 }
+
+.intro-div{
+  position: relative;
+  top: -400px;
+  left: 620px;
+
+  background-color: rgb(22, 22, 22);
+  width: 290px;
+  height: 80px;
+  border-radius: 15px;
+  animation: name-animation 3s infinite;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px;
+
+}
+
+.job-div{
+  position: relative;
+  top: -400px;
+  left: 640px;
+  background-color: rgb(22, 22, 22);
+  width: 290px;
+  height: 50px;
+  border-radius: 0 15px ;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  margin: 15px;
+  border: 2px solid  #940ce2;
+
+}
+
+.block-fill{
+  width: 25px;
+  height: 80px;
+  background: #b64b4b;
+  border-radius: 15px 0 0 15px;
+}
+
+
+@keyframes name-animation {
+  0%,100%{scale: 1.2;}
+  50%{scale: 1;}
+  
+}
+
+
+
+
+
+

@@ -54,6 +54,7 @@
         position: relative;
         top: 4px;
         left: 900px;
+        animation: pic-animation 3s infinite;
 
         @include mobile {
           width: 100%;
@@ -159,6 +160,7 @@
   border-radius: 15px;
   position: relative;
   left: -200px;
+  animation: pic2-animation 3s infinite;
 }
 
 .main-content{
@@ -238,4 +240,16 @@
   position: relative;
   border-radius: 15px;
 
+}
+
+@keyframes pic-animation {
+  0%,100%{scale: 1;}
+  50%{scale: 0.7;}
+  
+}
+
+@keyframes pic2-animation {
+  0%,100%{scale: 0.7;}
+  50%{scale: 1.1;}
+  
 }
