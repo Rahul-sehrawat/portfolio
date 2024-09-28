@@ -263,55 +263,90 @@
   scale: 2;
 }
 
-.intro-div{
+.intro-div {
   position: relative;
   top: -400px;
   left: 620px;
 
-  background-color: rgb(22, 22, 22);
-  width: 290px;
-  height: 80px;
+  background: linear-gradient(145deg, #4A00E0, #8E2DE2); /* Sleek gradient */
+  width: 300px;
+  height: 100px;
   border-radius: 15px;
-  animation: name-animation 3s infinite;
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 5px;
-
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: name-animation 3s infinite;
 }
 
-.job-div{
+.intro-div:hover {
+  transform: scale(1.05); /* Gentle scale on hover */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7); /* Shadow deepens */
+}
+
+.job-div {
   position: relative;
   top: -400px;
   left: 640px;
-  background-color: rgb(22, 22, 22);
-  width: 290px;
-  height: 50px;
-  border-radius: 0 15px ;
+  background-color: #1e1e1e;
+  width: 300px;
+  height: 60px;
+  border-radius: 15px 15px 15px 15px;
   display: flex;
   align-items: center;
-  padding-left: 5px;
-  margin: 15px;
-  border: 2px solid  #940ce2;
-
+  padding-left: 10px;
+  margin: 10px;
+  border: 2px solid #940ce2;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-.block-fill{
-  width: 25px;
+.job-div:hover {
+  background-color: #333; /* Slight color change */
+  border-color: #ff6f61; /* Change to a warmer color on hover */
+}
+
+.block-fill {
+  width: 20px;
   height: 80px;
-  background: #b64b4b;
   border-radius: 15px 0 0 15px;
 }
 
-
-@keyframes name-animation {
-  0%,100%{scale: 1.2;}
-  50%{scale: 1;}
-  
+h1 {
+  font-size: 2rem; /* Larger, bold heading */
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif; /* Modern, sleek font */
+  letter-spacing: 2px; /* Adds space between letters for readability */
+  text-transform: uppercase; /* Gives the name a bold, commanding look */
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6); /* Gives depth to the text */
+  margin: 0;
 }
 
+h3 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
+.emoji {
+  font-size: 1.75em; /* Adjust the size as needed */
+}
 
-
-
-
+@keyframes name-animation {
+  0%, 100% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+}

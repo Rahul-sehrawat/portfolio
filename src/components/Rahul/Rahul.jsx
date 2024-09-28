@@ -197,8 +197,11 @@ const Rahul = () =>{
             <h1>Rahul Sehrawat</h1>
           </div>
           <div className="job-div">
-          <h3>📑Full Stack Developer</h3>
-          </div>
+  <h3>
+    Full Stack Developer <span className="emoji">👨🏻‍💻</span>
+  </h3>
+</div>
+
 
           <motion.div style={{alignItems:'center', textAlign:'center'}}  variants={textVariants} initial="initial" animate="animate" className="imageContainer">
                   <img src="/profile-pic.png" alt=""/>
