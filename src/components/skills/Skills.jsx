@@ -3,36 +3,29 @@ import { motion } from "framer-motion";
 
 const skills = [
   {
-    title: "Frontend",
+    title: "Tools & Technologies",
     skills: [
-      { name: "HTML", image:"/html.png",},
-      { name: "CSS", image: "/css.png",},
-      { name: "JavaScript",image:"/javascript.png",},
-      { name: "React Js", image: "/react.png",},
-      { name: "Redux", image: "/redux.png",},
-      { name: "Next Js", image: "/nextjs.png"}, 
-      { name: "Bootstrap", image:"/bootstrap.png",},
-      { name: "Tailwind", image: "/tailwind.png",},
-      { name: "TypeScript", image:"/typescript.png",},
+      { name: "Excel", image:"/excel.png",},
+      { name: "SQL", image: "/sql.png",},
+      { name: "postgresql",image:"/postgresql.png",},
+      { name: "PowerBi", image: "/powerbi.png",},
+      { name: "Tableau", image: "/tableau.png",},
+      { name: "Google Sheets", image: "/googlesheets.png",},
     ],
   },
   {
-    title: "Backend",
+    title: "Data Analysis & statistics",
     skills: [
-      { name: "Node Js", image: "nodejs.png"},
-      { name: "Express Js", image: "expressjs.png"},
-      { name: "Graph Ql", image: "graphql.png"},
-      { name: "MySQL", image: "/mysql.png"},
-      { name: "Postgresql", image: "postgresql.png"},
-      { name: "MongoDB", image:"/mongodb.png"},
-      { name: "Firebase", image: "/firebase.png"},
-      { name: "Rest API", image: "/restapi.png"},
-      { name: "Postman", image: "postman.png"},
-      { name: "Socket.io", image: "/socket.png"},
+      { name: "Data Cleaning", image: "datacleaning.png"},
+      { name: "Data wrangling", image: "dataw.png"},
+      { name: "Exploratory Data Analysis", image: "eda.png"},
+      { name: "Statistics", image: "stat1.png"},
+      { name: "Dashboard Design", image: "dashboard.png"},
+      { name: "Reports Creation", image: "reports.png"},
     ],
   },
   {
-    title: "Machine Learning",
+    title: "Programming",
     skills: [
       { name: "Python", image: "python.png"},
       { name: "Pandas", image: "pandas.png"},
@@ -42,13 +35,13 @@ const skills = [
     ],
   },
   {
-    title: "DevOps",
+    title: "Other Tools",
     skills: [
       { name: "Git", image: "git.png"},
       { name: "Github", image: "github.png"},
-      { name: "Docker", image: "docker.png"},
-      { name: "Vercel", image: "vercel.png"},
+      { name: "VS Code", image: "vscode.png"},
       { name: "Linux", image: "linux.png"},
+
       
       
     

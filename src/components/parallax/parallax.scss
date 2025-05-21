@@ -43,12 +43,12 @@
   }
 }
 
-.reactPic{
+.pythonPic{
   position: absolute;
-  top: 20px;
+  top: 100px;
   left:634px;
   z-index: 1;
-  width: 300px;
+  width: 150px;
 
   @include mobile{
     width: 100px;
@@ -58,10 +58,10 @@
   }
 }
 
-.reduxPic{
+.sqlPic{
   position: absolute;
   top: 130px;
   right:284px;
   z-index: 2;
-  width: 50px;
+  width: 100px;
 }

@@ -46,29 +46,29 @@ const Rahul = () =>{
       <div className="hero">
       <div className="wrapper">   
         <img className="running-img2 running-html"
-        src="html.png" width='20px' alt="" />
+        src="sql.png" width='20px' alt="" />
         <img className="running-img running-css"
-        src="css.png" width='20px' alt="" />
+        src="excel.png" width='20px' alt="" />
         <img className="running-img running-js"
-        src="javascript.png" width='20px' alt="" />
+        src="machine.png" width='20px' alt="" />
         <img className="running-img running-github"
         src="github.png" width='20px' alt="" />
         <img className="running-img running-graphql"
-        src="graphql.png" width='20px' alt="" />
+        src="powerbi.png" width='20px' alt="" />
         <img className="running-img running-boot"
-        src="bootstrap.png" width='20px' alt="" />
+        src="numpy.png" width='20px' alt="" />
         <img className="running-img running-redux"
-        src="redux.png" width='20px' alt="" />
+        src="pandas.png" width='20px' alt="" />
         <img className="running-img running-react"
-        src="react.png" width='20px' alt="" />
+        src="postgresql.png" width='20px' alt="" />
         <img className="running-img running-tailwind"
-        src="tailwind.png" width='20px' alt="" />
+        src="jy.png" width='20px' alt="" />
         <img className="running-img2 running-socket"
         src="socket.png" width='20px' alt="" />
         <img className="running-img2 running-node"
-        src="nodejs.png" width='20px' alt="" />
+        src="excel.png" width='20px' alt="" />
         <img className="running-img running-nextjs"
-        src="nextjs.png" width='20px' alt="" />
+        src="powerbi.png" width='20px' alt="" />
         <img className="running-img running-git"
         src="git.png" width='20px' alt="" />
         
@@ -77,64 +77,82 @@ const Rahul = () =>{
             <div className="firstchild" style={{paddingLeft:'10px'}}>
               <div style={{display:"flex", padding:'6px', justifyContent:"space-between"}}>
                 <div style={{display:'flex', gap:"4px"}}>
-                <img src="/html.png" width='20px' alt="" />
-                 <p>index.html</p>
+                <img src="/excel.png" width='20px' alt="" />
+                 <p>Excel</p>
                  </div>                
                 <FaChevronDown />
               </div>
-                  <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
                   <div style={{ display: "flex", gap: "2px" }}>
-                    <p style={{ color: "#FF79C6" }}>{`<div`}</p>
-                    <p style={{ color: "#8BE9FD" }}>{` class`}</p>
-                    <p>{`=`}</p>
-                    <p style={{ color: "#50FA7B" }}>{`"container"`}</p>
-                    <p style={{ color: "#FF79C6" }}>{`>`}</p>
+                    <p style={{ color: "#f54d05" }}>{`=SUM`}</p>
+                    <p>{`(`}</p>
+                    <p style={{ color: "#9CDCFE" }}>{`A1:A5`}</p>
+                    <p>{`)`}</p>
                   </div>
-                  <div style={{ display: "flex", gap: "2px", paddingLeft: "20px" }}>
-                    <p style={{ color: "#FFB86C" }}>{`<h1`}</p>
-                    <p style={{ color: "#8BE9FD" }}>{` class`}</p>
-                    <p>{`=`}</p>
-                    <p style={{ color: "#50FA7B" }}>{`"title"`}</p>
-                    <p style={{ color: "#FFB86C" }}>{`>`}</p>
-                    <p style={{ color: "#F8F8F2" }}>{`Hello World!`}</p>
-                    <p style={{ color: "#FFB86C" }}>{`</h1>`}</p>
-                  </div>
+
                   <div style={{ display: "flex", gap: "2px" }}>
-                    <p style={{ color: "#FF79C6" }}>{`</div>`}</p>
+                    <p style={{ color: "#f1c80e" }}>{`=IF`}</p>
+                    <p>{`(`}</p>
+                    <p style={{ color: "#9CDCFE" }}>{`A1 > 10`}</p>
+                    <p>{`, `}</p>
+                    <p style={{ color: "#CE9178" }}>{`"High"`}</p>
+                    <p>{`, `}</p>
+                    <p style={{ color: "#CE9178" }}>{`"Low"`}</p>
+                    <p>{`)`}</p>
+                  </div>
+
+                  <div style={{ display: "flex", gap: "2px" }}>
+                    <p style={{ color: "#0bf917" }}>{`=VLOOKUP`}</p>
+                    <p>{`(`}</p>
+                    <p style={{ color: "#9CDCFE" }}>{`...`}</p>
+                    <p>{`)`}</p>
+                  </div>
+
+                  <div style={{ display: "flex", gap: "2px" }}>
+                    <p style={{ color: "#9CDCFE" }}>{`B1`}</p>
+                    <p>{` = `}</p>
+                    <p style={{ color: "#CE9178" }}>{`"Rahul"`}</p>
                   </div>
                 </div>
+
             </div>
 
             <div className="secondchild" style={{paddingLeft:"10px"}}>
               <div style={{display:"flex", padding:'6px', justifyContent:"space-between"}}>
                 <div style={{display:'flex', gap:"4px"}}>
                 {/* <IoSettingsOutline /> */}
-                <img src="/css.png" width='20px' alt="" />
-                 <p>style.css</p>
+                <img src="/sql.png" width='20px' alt="" />
+                 <p>SQL</p>
                 </div>
                 <FaChevronDown />
               </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-                  <div style={{ display: "flex", gap: "2px", }}>
-                    <p style={{ color: "#569CD6" }}>{`body`}</p>
-                    <p>{` {`}</p>
-                  </div>
-                  <div style={{ display: "flex", gap: "2px", paddingLeft: "20px" }}>
-                    <p style={{ color: "#50FA7B" }}>{`background-color:`}</p>
-                    <p style={{ color: "#CE9178" }}>{`#f0f0f0;`}</p>
-                  </div>
-                  <div style={{ display: "flex", gap: "2px", paddingLeft: "20px" }}>
-                    <p style={{ color: "#50FA7B" }}>{`margin:`}</p>
-                    <p style={{ color: "#CE9178" }}>{`0;`}</p>
-                  </div>
-                  <div style={{ display: "flex", gap: "2px", paddingLeft: "20px" }}>
-                    <p style={{ color: "#50FA7B" }}>{`font-family:`}</p>
-                    <p style={{ color: "#CE9178" }}>{`'Arial', sans-serif;`}</p>
-                  </div>
-                  <div style={{ display: "flex", gap: "2px" }}>
-                    <p>{`}`}</p>
-                  </div> 
+      
+              <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div style={{ display: "flex", gap: "2px" }}>
+                  <p style={{ color: "#f95508" }}>{`CREATE TABLE`}</p>
+                  <p style={{ color: "#DCDCAA" }}>{`person`}</p>
+                  <p>{`(`}</p>
+                  <p style={{ color: "#9CDCFE" }}>{`name TEXT`}</p>
+                  <p>{`);`}</p>
+                </div>
+                <div style={{ display: "flex", gap: "2px" }}>
+                  <p style={{ color: "#a009f8" }}>{`INSERT INTO`}</p>
+                  <p style={{ color: "#DCDCAA" }}>{`person`}</p>
+                  <p>{`VALUES(`}</p>
+                  <p style={{ color: "#CE9178" }}>{`'Rahul'`}</p>
+                  <p>{`);`}</p>
+                </div>
+                <div style={{ display: "flex", gap: "2px" }}>
+                  <p style={{ color: "#f1c80e" }}>{`SELECT`}</p>
+                  <p style={{ color: "#CE9178" }}>{`'Hello, '`}</p>
+                  <p>{` || `}</p>
+                  <p style={{ color: "#9CDCFE" }}>{`name`}</p>
+                  <p style={{ color: "#f1c80e" }}>{`FROM`}</p>
+                  <p style={{ color: "#DCDCAA" }}>{`person`}</p>
+                  <p>{`;`}</p>
+                </div>
               </div>
+
             </div>
           
           
@@ -142,53 +160,47 @@ const Rahul = () =>{
               <div style={{display:"flex", padding:'6px', justifyContent:"space-between"}}>
                 <div style={{display:'flex', gap:"4px"}}>
                 {/* <IoSettingsOutline /> */}
-                <img src="/javascript.png" width='20px' alt="" />
-                 <p>script.js</p>
+                <img src="/python.png" width='20px' alt="" />
+                 <p>python</p>
                 </div>
                 <FaChevronDown />
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-                    <div style={{ display: "flex", gap: "2px" }}>
-                      <p style={{ color: "#f1c80e" }}>{`const`}</p>
-                      <p style={{ color: "#9CDCFE" }}>{`name`}</p>
-                      <p>{` = `}</p>
-                      <p style={{ color: "#CE9178" }}>{`"Rahul";`}</p>
-                    </div>
-                    <div style={{ display: "flex", gap: "2px" }}>
-                      <p style={{ color: "#f1c80e" }}>{`let`}</p>
-                      <p style={{ color: "#9CDCFE" }}>{`age`}</p>
-                      <p>{` = `}</p>
-                      <p style={{ color: "#B5CEA8" }}>{`24;`}</p>
-                    </div>
-                    <div style={{ display: "flex", gap: "2px" }}>
-                      <p style={{ color: "#f1c80e" }}>{`function`}</p>
-                      <p style={{ color: "#DCDCAA" }}>{`greet`}</p>
-                      <p>{`(`}</p>
-                      <p style={{ color: "#9CDCFE" }}>{`name`}</p>
-                      <p>{`) {`}</p>
-                    </div>
-                    <div style={{ display: "flex", gap: "2px", paddingLeft: "20px" }}>
-                      <p style={{ color: "#f1c80e" }}>{`return`}</p>
-                      <p>{` `}</p>
-                      <p style={{ color: "#CE9178" }}>{`"Hello, "`}</p>
-                      <p>{` + `}</p>
-                      <p style={{ color: "#9CDCFE" }}>{`name`}</p>
-                      <p>{` + `}</p>
-                      <p style={{ color: "#CE9178" }}>{`"!";`}</p>
-                    </div>
-                    <div style={{ display: "flex", gap: "2px" }}>
-                      <p>{`}`}</p>
-                    </div>
-                    <div style={{ display: "flex", gap: "2px" }}>
-                      <p style={{ color: "#f1c80e" }}>{`console.`}</p>
-                      <p style={{ color: "#DCDCAA" }}>{`log`}</p>
-                      <p>{`(`}</p>
-                      <p style={{ color: "#DCDCAA" }}>{`greet`}</p>
-                      <p>{`(`}</p>
-                      <p style={{ color: "#9CDCFE" }}>{`name`}</p>
-                      <p>{`));`}</p>
-                    </div>
+                  <div style={{ display: "flex", gap: "2px" }}>
+                    <p style={{ color: "#f1c80e" }}>{`name`}</p>
+                    <p>{` = `}</p>
+                    <p style={{ color: "#CE9178" }}>{`"Rahul"`}</p>
                   </div>
+                  <div style={{ display: "flex", gap: "2px" }}>
+                    <p style={{ color: "#04fc04" }}>{`age`}</p>
+                    <p>{` = `}</p>
+                    <p style={{ color: "#B5CEA8" }}>{`24`}</p>
+                  </div>
+                  <div style={{ display: "flex", gap: "2px" }}>
+                    <p style={{ color: "#f1c80e" }}>{`def`}</p>
+                    <p style={{ color: "#DCDCAA" }}>{`greet`}</p>
+                    <p>{`(`}</p>
+                    <p style={{ color: "#9CDCFE" }}>{`name`}</p>
+                    <p>{`):`}</p>
+                  </div>
+                  <div style={{ display: "flex", gap: "2px", paddingLeft: "20px" }}>
+                    <p style={{ color: "#f18b0e" }}>{`return`}</p>
+                    <p>{` `}</p>
+                    <p style={{ color: "#CE9178" }}>{`"Hello, "`}</p>
+                    <p>{` + `}</p>
+                    <p style={{ color: "#9CDCFE" }}>{`name`}</p>
+                  </div>
+                  <div style={{ display: "flex", gap: "2px" }}>
+                    <p style={{ color: "#DCDCAA" }}>{`print`}</p>
+                    <p>{`(`}</p>
+                    <p style={{ color: "#DCDCAA" }}>{`greet`}</p>
+                    <p>{`(`}</p>
+                    <p style={{ color: "#9CDCFE" }}>{`name`}</p>
+                    <p>{`)`}</p>
+                    <p>{`)`}</p>
+                  </div>
+                </div>
+
 
             </div>
           </div>
@@ -197,7 +209,7 @@ const Rahul = () =>{
             <h1>Rahul Sehrawat</h1>
           </div>
           <div className="job-div">
-          <h3>📑Full Stack Developer</h3>
+          <h3>📑Data / Business Analyst</h3>
           </div>
 
           <motion.div style={{alignItems:'center', textAlign:'center'}}  variants={textVariants} initial="initial" animate="animate" className="imageContainer">

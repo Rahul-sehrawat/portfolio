@@ -37,8 +37,8 @@ const Parallax = ({ type }) => {
         }}
       ></motion.div>
       <motion.div style={{ x: yBg }} className="stars"></motion.div>
-      <motion.img style={{x:yBg}} className="reactPic" src="/react.png"></motion.img>
-      <motion.img style={{x:yBg}} className="reduxPic" src="/redux.png"></motion.img>
+      <motion.img style={{x:yBg}} className="pythonPic" src="/python.png"></motion.img>
+      <motion.img style={{x:yBg}} className="sqlPic" src="/sql.png"></motion.img>
     </div>
   );
 };

@@ -7,47 +7,46 @@ import { FaChevronDown } from "react-icons/fa";
 const items = [
   {
     id: 1,
-    title: "DSA Arena",
-    img: "/leetcode.png",
-    img2: '/dsabot.png',
-    link:"https://the-tale-of-dsa.vercel.app/",
-    desc1: "📃 Developed a dsa problems solving website. ",
-    des2:'📃 User can solve more than 10 problems on my web application.',
-    des3:'📃 Integrated  Firestore database to store user data.',
-    ts1:'React',
-    ts2:'NextJs',
-    ts3:'TypeScript', 
-    ts4:'Firebase',
+    title: "ChessBoard Map for A.I",
+    img: "/overall.jpg",
+    img2: '/chess2.png',
+    link:"https://rahul9dev.netlify.app/",
+    desc1: "📃 Utilized Python libraries to analyze a large dataset of chess games.",
+    des2:'📃 Created an algorithm to parse and extract square-level move data.',
+    des3:'📃 Implemented piece-wise filtering for individual heatmaps.',
+    ts1:'MS Excel',
+    ts2:'Python',
+    ts3:'Pandas', 
+    ts4:'Matplotlib',
   },
   {
     id: 2,
-    title: "Chess Club Application",
-    img: "/chess1.png",
-    img2: "/chess2.png",
-    link:"https://chessclubapp.netlify.app/",
-    desc1: "♟️ Developed an online chess application.",
-    des2:'♟️ Engineered real-time multiplayer capabilities using WebSocket',
-    des3:'♟️ Designed user Identity and Access Control mechanisms using JWT',
-    ts1:'React',
-    ts2:'NodeJs',
-    ts3:'Express',
-    ts4:'MongoDB',
-    ts5:'Websockets', 
+    title: "HR Analysis Dashboard",
+    img: "/hrd.png",
+    img2: "/xdata.png",
+    link:"https://rahul9dev.netlify.app/",
+    desc1: "Interactive Power BI dashboard to analyze employee attrition trends.",
+    des2:'Implement slicers,dynamic visualizations to enable category filtering.',
+    des3:'Cleaned and transformed raw data using Power Query.',
+    ts1:'PowerBi',
+    ts2:'Excel',
+    ts3:'Visualization',
+    ts4:'Analysis', 
   },
-  {
-    id: 3,
-    title: "2D Fighting Game",
-    link :"https://onepiece-mygame.netlify.app/",
-    img: "/fightgame.png",
-    img2:"/game2.png",
-    desc1: "🎮 Developed an engaging 1v1 2D fighting game.",
-    des2:'🎮 Facilitated head-to-head matches through a two-player mode.',
-    des3:'🎮 Programmed game mechanics like health,collision detection.',
-    ts1:'HTML',
-    ts2:'CSS',
-    ts3:'JavaScript', 
-    techstack:'HTML, CSS, JavaScript',
-  },
+  // {
+  //   id: 3,
+  //   title: "2D Fighting Game",
+  //   link :"https://onepiece-mygame.netlify.app/",
+  //   img: "/fightgame.png",
+  //   img2:"/game2.png",
+  //   desc1: "🎮 Developed an engaging 1v1 2D fighting game.",
+  //   des2:'🎮 Facilitated head-to-head matches through a two-player mode.',
+  //   des3:'🎮 Programmed game mechanics like health,collision detection.',
+  //   ts1:'HTML',
+  //   ts2:'CSS',
+  //   ts3:'JavaScript', 
+  //   techstack:'HTML, CSS, JavaScript',
+  // },
 ];
 
 const Single = ({ item }) => {
@@ -94,7 +93,7 @@ const Single = ({ item }) => {
                     {item.ts5 && (<div className="techstack-div">{item.ts5}</div>)}
                   </div>
                   <div style={{position:'relative'}}>
-                    <a className="website-link" href={item.link}>website</a>  
+                    <a className="website-link" href={item.link}>Read More...</a>  
                   </div>
                   
                   
