@@ -2,6 +2,7 @@ import { useRef } from "react";
 import "./projects.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const items = [
@@ -93,7 +94,10 @@ const Single = ({ item }) => {
                     {item.ts5 && (<div className="techstack-div">{item.ts5}</div>)}
                   </div>
                   <div style={{position:'relative'}}>
-                    <a className="website-link" href={item.link}>Read More...</a>  
+                    <Link className="website-link" to={`/project/${item.id}`}>
+                        Read More...
+                    </Link>
+
                   </div>
                   
                   
