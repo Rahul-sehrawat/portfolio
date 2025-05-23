@@ -20,6 +20,12 @@ const ProjectDetail = () => {
             return <h2 key={index}>{section.content}</h2>;
           } else if (section.type === "paragraph") {
             return <p key={index}>{section.content}</p>;
+          } else if (section.type === "list") {
+            return ( <ul key={index}>
+        {section.content.map((item, i) => (
+          <li key={i}>{item}</li>
+        ))}
+      </ul> )
           } 
           else if 
           (section.type === "image") {

@@ -32,6 +32,12 @@
   margin-bottom: 20px;
 }
 
+.article-container ul {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
 .article-container img {
   width: 100%;
   margin: 20px 0;
@@ -40,6 +46,14 @@
 
 .article-container .half-width-img {
   width: 40%; 
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.article-container .medium-width-img {
+  width: 70%; 
   margin: 20px auto;
   display: block;
   border-radius: 8px;
