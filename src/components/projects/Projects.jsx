@@ -93,7 +93,7 @@ const Single = ({ item }) => {
                     {item.ts4 && (<div className="techstack-div">{item.ts4}</div>)}
                     {item.ts5 && (<div className="techstack-div">{item.ts5}</div>)}
                   </div>
-                  <div style={{position:'relative'}}>
+                  <div  style={{position:'relative'}}>
                     <Link className="website-link" to={`/project/${item.id}`}>
                         Read More...
                     </Link>

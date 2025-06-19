@@ -253,3 +253,93 @@
   50%{scale: 1.1;}
   
 }
+
+
+// mobile screen
+
+@include mobile {
+  .boss-container {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    top: 40px;
+    left: 0;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .main-content {
+    position: static;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+  }
+
+  .project-heading {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+  }
+
+  .project-details {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    font-size: 14px;
+    top: 0;
+    left: 0;
+  }
+
+  .techstack-div {
+    display: inline-block;
+    position: static;
+    margin: 5px 4px 0 0;
+    width: auto;
+    height: auto;
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .website-link {
+    position: static;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 12px;
+    width: auto;
+    height: auto;
+  }
+
+  .imageContainer {
+    position: static;
+    width: 100% !important;
+    height: auto;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .img1,
+  .img2 {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+    position: static;
+    margin: 10px 0;
+  }
+
+  .wrapper {
+    flex-direction: column !important;
+    gap: 30px !important;
+  }
+
+  .progress {
+    font-size: 24px !important;
+    padding-top: 20px;
+  }
+}

@@ -25,7 +25,7 @@
 
       @include mobile {
         height: 50%;
-        width: 100%;
+        width: 50%;
         gap: 20px;
         align-items: center;
         text-align: center;
@@ -83,8 +83,8 @@
     
 
     @include mobile {
-      height: 40%;
-      width: 50%;
+      height: 30%;
+      width: 40% !important;
       top: unset;
       bottom: 0;
       right: 110px;
